@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/addName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Count Name"
+        android:inputType="text"
+        android:maxLength="10" />
+
+    <EditText
+        android:id="@+id/addValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Initial Value"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/addText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comment"
+        android:inputType="text"
+        android:maxLength="40" />
+
+
+    <Button
+        android:id="@+id/addCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD COUNT" />
+
+
+</LinearLayout>
